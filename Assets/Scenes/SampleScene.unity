@@ -204,7 +204,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2377779539535080053, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       propertyPath: m_Name
-      value: Button with Dropdown
+      value: Button Weeapons with Dropdown
       objectReference: {fileID: 0}
     - target: {fileID: 3756165624058073215, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       propertyPath: m_Pivot.x
@@ -286,16 +286,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6542775737310831319, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_text
+      value: Weapons
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2377779539535080053, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 650015929}
   m_SourcePrefab: {fileID: 100100000, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+--- !u!1 &372043315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2377779539535080053, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+  m_PrefabInstance: {fileID: 858175961}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &372043316 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3756165624058073215, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
   m_PrefabInstance: {fileID: 858175961}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &372043320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372043315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f49f2ce47258bca49829183f8a9bc206, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropdownPanel: {fileID: 1246509784}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,11 +542,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &650015924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2377779539535080053, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+  m_PrefabInstance: {fileID: 270887042}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &650015925 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3756165624058073215, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
   m_PrefabInstance: {fileID: 270887042}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &650015929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650015924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f49f2ce47258bca49829183f8a9bc206, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropdownPanel: {fileID: 1466787532}
 --- !u!1 &671775658
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,7 +880,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2377779539535080053, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       propertyPath: m_Name
-      value: Button with Dropdown (1)
+      value: Button Ults with Dropdown (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3756165624058073215, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       propertyPath: m_Pivot.x
@@ -919,10 +962,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6542775737310831319, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_text
+      value: Ults
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2377779539535080053, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 372043320}
   m_SourcePrefab: {fileID: 100100000, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
 --- !u!1 &905699582
 GameObject:
@@ -1045,6 +1095,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 905699582}
   m_CullTransparentMesh: 1
+--- !u!1 &1246509784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1323249729248602192, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+  m_PrefabInstance: {fileID: 858175961}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1279895042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1124,6 +1179,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1466787532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1323249729248602192, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+  m_PrefabInstance: {fileID: 270887042}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1903812043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1452,7 +1512,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2377779539535080053, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       propertyPath: m_Name
-      value: Button Turrets
+      value: Button Turrets Dropdown
       objectReference: {fileID: 0}
     - target: {fileID: 3756165624058073215, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       propertyPath: m_Pivot.x
@@ -1533,6 +1593,10 @@ PrefabInstance:
     - target: {fileID: 3756165624058073215, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542775737310831319, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_text
+      value: Turrets
       objectReference: {fileID: 0}
     - target: {fileID: 7226313679889305333, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

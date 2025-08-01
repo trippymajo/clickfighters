@@ -38,7 +38,21 @@ public class ClickManager : MonoBehaviour
         clickCount += amount;
         UIPlaysiteManager.Instance?.UpdateClickDisplay(clickCount);
     }
+    
+    /// <summary>
+    /// Add clicks per secs
+    /// </summary>
+    /// <param name="addPersec"></param>
+    public void AddClicksPerSec(int addPersec)
+    {
+        clicksPerSecond += addPersec;
+    }
 
+    /// <summary>
+    /// Buy process, spend clicks
+    /// </summary>
+    /// <param name="amount"></param>
+    /// <returns></returns>
     public bool TrySpendClicks(int amount)
     {
         if (clickCount < amount)
