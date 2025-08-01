@@ -1,9 +1,9 @@
 using TMPro;
 using UnityEngine;
 
-public class UIManager : MonoBehaviour
+public class UIPlaysiteManager : MonoBehaviour
 {
-    public static UIManager Instance;
+    public static UIPlaysiteManager Instance;
 
     public TMP_Text clickText;
 

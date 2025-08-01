@@ -36,7 +36,7 @@ public class ClickManager : MonoBehaviour
     public void AddClicks(int amount)
     {
         clickCount += amount;
-        UIManager.Instance?.UpdateClickDisplay(clickCount);
+        UIPlaysiteManager.Instance?.UpdateClickDisplay(clickCount);
     }
 
     public bool TrySpendClicks(int amount)
@@ -45,7 +45,7 @@ public class ClickManager : MonoBehaviour
             return false;
 
         clickCount -= amount;
-        UIManager.Instance?.UpdateClickDisplay(clickCount);
+        UIPlaysiteManager.Instance?.UpdateClickDisplay(clickCount);
         return true;
     }
 }
