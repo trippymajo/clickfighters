@@ -4,9 +4,12 @@ public class ClickManager : MonoBehaviour
 {
     public static ClickManager Instance;
 
-    public int clickCount = 0;
-    public int clicksPerSecond = 0;
-    public int clickMultiplier = 1;
+    [SerializeField]
+    private int clickCount = 0;
+    [SerializeField]
+    private int clicksPerSecond = 0;
+    [SerializeField]
+    private int clickMultiplier = 1;
 
     private float _tickTimer = 0f;
 
@@ -39,6 +42,11 @@ public class ClickManager : MonoBehaviour
         UIPlaysiteManager.Instance?.UpdateClickDisplay(clickCount);
     }
     
+    public void SetClicksMultiplier(int multi)
+    {
+        clickMultiplier = multi;
+    }
+
     /// <summary>
     /// Add clicks per secs
     /// </summary>
