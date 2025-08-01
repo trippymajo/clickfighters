@@ -5,7 +5,8 @@ public class UIPlaysiteManager : MonoBehaviour
 {
     public static UIPlaysiteManager Instance;
 
-    public TMP_Text clickText;
+    [SerializeField]
+    private TMP_Text clickText;
 
     void Awake()
     {

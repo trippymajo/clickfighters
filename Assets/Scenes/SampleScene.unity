@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 129463065}
   - component: {fileID: 129463067}
   m_Layer: 5
-  m_Name: Stratogems Panel
+  m_Name: Ults Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243,6 +243,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1486751844921253227, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a06d32f73e6490948a23b0cbb3eec0e2, type: 3}
     - target: {fileID: 2377779539535080053, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       propertyPath: m_Name
       value: Button Weeapons with Dropdown
@@ -440,6 +444,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropdownPanel: {fileID: 1246509784}
+--- !u!114 &372043321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372043315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1bc2e9a2e2da204c9b93845a0a41f06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ult:
+    name: 
+    icon: {fileID: 0}
+    prefab: {fileID: 0}
+    price: 0
+    combination: 
+    isOwned: 0
+  buyButton: {fileID: 0}
+  ultsPanel: {fileID: 0}
+  ultsCellPrefab: {fileID: 0}
+  ultsToClick: {fileID: 0}
+  leftIcon: {fileID: 0}
+  rightIcon: {fileID: 0}
 --- !u!114 &421758638 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2666907805955215730, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
@@ -999,6 +1028,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2377779539535080053, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 372043320}
+    - targetCorrespondingSourceObject: {fileID: 2377779539535080053, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 372043321}
   m_SourcePrefab: {fileID: 100100000, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
 --- !u!1 &1134491703
 GameObject:
@@ -1670,6 +1702,10 @@ PrefabInstance:
     - target: {fileID: 3346961590493849726, guid: 953093d912b512e49bb5d0787ec4bd1e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5009055728879796612, guid: 953093d912b512e49bb5d0787ec4bd1e, type: 3}
+      propertyPath: m_Sprite
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
