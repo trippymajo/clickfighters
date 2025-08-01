@@ -30,7 +30,7 @@ public class WeaponsUpgradeController : MonoBehaviour
     {
         if (weapon.isOwned || weapon.multiplierBonus <= mostMulti)
         {
-            Debug.Log("Already owned.");
+            Debug.Log("Already owned or bonus is smalleer than current");
             return;
         }
 

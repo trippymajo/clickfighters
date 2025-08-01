@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 129463064}
   - component: {fileID: 129463066}
   - component: {fileID: 129463065}
+  - component: {fileID: 129463067}
   m_Layer: 5
   m_Name: Stratogems Panel
   m_TagString: Untagged
@@ -194,6 +195,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129463063}
   m_CullTransparentMesh: 1
+--- !u!114 &129463067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129463063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 290, y: 50}
+  m_Spacing: {x: 25, y: 25}
+  m_Constraint: 1
+  m_ConstraintCount: 2
 --- !u!1001 &270887042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -238,6 +263,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2804133220927433040, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8584906
+      objectReference: {fileID: 0}
+    - target: {fileID: 2804133220927433040, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_Color.g
+      value: 0.8584906
+      objectReference: {fileID: 0}
+    - target: {fileID: 2804133220927433040, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8584906
+      objectReference: {fileID: 0}
+    - target: {fileID: 2804133220927433040, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 7a3aede67a225074dbbdbd06e99f4963, type: 3}
     - target: {fileID: 3756165624058073215, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1528,7 +1569,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1736425854668612819, guid: 953093d912b512e49bb5d0787ec4bd1e, type: 3}
       propertyPath: m_Name
-      value: Button Turrets Dropdown
+      value: Button Turrets
       objectReference: {fileID: 0}
     - target: {fileID: 2646376451036011385, guid: 953093d912b512e49bb5d0787ec4bd1e, type: 3}
       propertyPath: m_Pivot.x
