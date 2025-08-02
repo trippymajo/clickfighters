@@ -444,7 +444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropdownPanel: {fileID: 1246509784}
---- !u!114 &372043321
+--- !u!114 &372043322
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -456,19 +456,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1bc2e9a2e2da204c9b93845a0a41f06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ult:
-    name: 
-    icon: {fileID: 0}
-    prefab: {fileID: 0}
-    price: 0
-    combination: 
+  ults:
+  - button: {fileID: 731725948}
+    name: u1
+    icon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+    price: 20
+    combination: 01000000000000000000000000000000
     isOwned: 0
-  buyButton: {fileID: 0}
-  ultsPanel: {fileID: 0}
-  ultsCellPrefab: {fileID: 0}
-  ultsToClick: {fileID: 0}
-  leftIcon: {fileID: 0}
-  rightIcon: {fileID: 0}
+  ultsPanel: {fileID: 129463063}
+  ultsCellPrefab: {fileID: 6640565905557252643, guid: 47dcdc4d393de28489d3f297d2bd322c, type: 3}
+  ultsToClickPrefab: {fileID: 5739257411575064494, guid: f60f0a5a2b85bbc4f8e6bc3642534432, type: 3}
+  leftIcon: {fileID: -5571975326700898741, guid: 699459464352ed743b94599046ec7293, type: 3}
+  rightIcon: {fileID: 2984687188549641404, guid: 06c5753663596b440b7193e00ce3146a, type: 3}
 --- !u!114 &421758638 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2666907805955215730, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
@@ -925,6 +924,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickText: {fileID: 2031995360}
+--- !u!114 &731725948 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2666907805955215730, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+  m_PrefabInstance: {fileID: 858175961}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &858175961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -933,6 +943,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1950066918}
     m_Modifications:
+    - target: {fileID: 1121674635545963168, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1121674635545963168, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_OverrideSorting
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1323249729248602192, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1486751844921253227, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2348078605237898932, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2377779539535080053, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       propertyPath: m_Name
       value: Button Ults with Dropdown (1)
@@ -1021,6 +1051,38 @@ PrefabInstance:
       propertyPath: m_text
       value: Ults
       objectReference: {fileID: 0}
+    - target: {fileID: 7180529524871494906, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_IgnoreReversedGraphics
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226313679889305333, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226313679889305333, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226313679889305333, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 372043320}
+    - target: {fileID: 7226313679889305333, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226313679889305333, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleDropdown
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226313679889305333, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DropdownManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7226313679889305333, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1030,7 +1092,7 @@ PrefabInstance:
       addedObject: {fileID: 372043320}
     - targetCorrespondingSourceObject: {fileID: 2377779539535080053, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 372043321}
+      addedObject: {fileID: 372043322}
   m_SourcePrefab: {fileID: 100100000, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
 --- !u!1 &1134491703
 GameObject:
@@ -1706,7 +1768,7 @@ PrefabInstance:
     - target: {fileID: 5009055728879796612, guid: 953093d912b512e49bb5d0787ec4bd1e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: b19defd1b6b3c7645856a870d90e1948, type: 3}
     m_RemovedComponents:
     - {fileID: 0}
     m_RemovedGameObjects: []

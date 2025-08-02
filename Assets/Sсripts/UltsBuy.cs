@@ -15,7 +15,6 @@ public class UltInfo
     public Button button;
     public string name;
     public Sprite icon;
-    public GameObject prefab;
     public int price;
     public List<InputDirection> combination;
     public bool isOwned = false;
@@ -27,7 +26,7 @@ public class UltsBuy : MonoBehaviour
 
     public GameObject ultsPanel;
     public GameObject ultsCellPrefab;
-    public GameObject ultsToClick;
+    public GameObject ultsToClickPrefab;
 
     public Sprite leftIcon;
     public Sprite rightIcon;
@@ -36,8 +35,9 @@ public class UltsBuy : MonoBehaviour
     {
         foreach (var ult in ults)
         {
+            var curUlt = ult;
             if (ult.button != null)
-                ult.button.onClick.AddListener(BuyUlt);
+                ult.button.onClick.AddListener(() => BuyUlt(ult));
         }
     }
 
@@ -75,7 +75,7 @@ public class UltsBuy : MonoBehaviour
         // make a combo to click
         foreach (var dir in ult.combination)
         {
-            GameObject toClick = Instantiate(ultsToClick, innerGrid);
+            GameObject toClick = Instantiate(ultsToClickPrefab, innerGrid);
             Image img = toClick.GetComponentInChildren<Image>();
 
             // pick icon for combo

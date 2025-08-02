@@ -166,10 +166,10 @@ TextureImporter:
       name: Player shot_0
       rect:
         serializedVersion: 2
-        x: 1244
-        y: 2719
-        width: 262
-        height: 327
+        x: 1241
+        y: 2716
+        width: 268
+        height: 333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: Player shot_1
       rect:
         serializedVersion: 2
-        x: 3804
-        y: 2719
-        width: 262
-        height: 327
+        x: 3801
+        y: 2716
+        width: 268
+        height: 333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: Player shot_2
       rect:
         serializedVersion: 2
-        x: 1244
-        y: 2079
-        width: 257
-        height: 327
+        x: 1241
+        y: 2076
+        width: 263
+        height: 333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +232,10 @@ TextureImporter:
       name: Player shot_3
       rect:
         serializedVersion: 2
-        x: 3804
-        y: 2079
-        width: 257
-        height: 327
+        x: 3801
+        y: 2076
+        width: 263
+        height: 333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: Player shot_4
       rect:
         serializedVersion: 2
-        x: 1244
-        y: 1439
-        width: 307
-        height: 327
+        x: 1241
+        y: 1436
+        width: 313
+        height: 333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +276,10 @@ TextureImporter:
       name: Player shot_5
       rect:
         serializedVersion: 2
-        x: 3804
-        y: 1439
-        width: 307
-        height: 327
+        x: 3801
+        y: 1436
+        width: 313
+        height: 333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +298,10 @@ TextureImporter:
       name: Player shot_6
       rect:
         serializedVersion: 2
-        x: 1244
-        y: 799
-        width: 232
-        height: 327
+        x: 1241
+        y: 796
+        width: 307
+        height: 333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,57 +317,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player shot_7
-      rect:
-        serializedVersion: 2
-        x: 1514
-        y: 1084
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 84cc845a5d8df48a0800000000000000
-      internalID: -6318593340064871352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player shot_8
-      rect:
-        serializedVersion: 2
-        x: 3804
-        y: 799
-        width: 232
-        height: 327
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea631521d0fb8cb20800000000000000
-      internalID: 3154981601835824814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Player shot_9
       rect:
         serializedVersion: 2
-        x: 4074
-        y: 1084
-        width: 7
-        height: 7
+        x: 3801
+        y: 796
+        width: 307
+        height: 333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,189 +339,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player shot_10
-      rect:
-        serializedVersion: 2
-        x: 1519
-        y: 1074
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4612d812084378480800000000000000
-      internalID: -8897084813923770012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player shot_11
-      rect:
-        serializedVersion: 2
-        x: 4079
-        y: 1074
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86e902ef092be6b90800000000000000
-      internalID: -7246658414583964056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player shot_12
-      rect:
-        serializedVersion: 2
-        x: 1494
-        y: 1064
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ec4f2bee84de1db0800000000000000
-      internalID: -4819180840943661854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player shot_13
-      rect:
-        serializedVersion: 2
-        x: 4054
-        y: 1064
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 429d691ac56df3c10800000000000000
-      internalID: 2035581249931106596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player shot_14
-      rect:
-        serializedVersion: 2
-        x: 1529
-        y: 1039
-        width: 17
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0f5bb942fbd8c6f60800000000000000
-      internalID: 8028948087787206128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player shot_15
-      rect:
-        serializedVersion: 2
-        x: 4089
-        y: 1039
-        width: 17
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02d38dc34d6082a00800000000000000
-      internalID: 731842448071343392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player shot_16
-      rect:
-        serializedVersion: 2
-        x: 1479
-        y: 1019
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ceb7f757d39d95ee0800000000000000
-      internalID: -1271746561767932948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player shot_17
-      rect:
-        serializedVersion: 2
-        x: 4039
-        y: 1019
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 55f36903e8bbc5cf0800000000000000
-      internalID: -262128458919428267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Player shot_18
       rect:
         serializedVersion: 2
-        x: 1499
-        y: 994
-        width: 7
-        height: 17
+        x: 1241
+        y: 156
+        width: 238
+        height: 333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,10 +364,10 @@ TextureImporter:
       name: Player shot_19
       rect:
         serializedVersion: 2
-        x: 4059
-        y: 994
-        width: 7
-        height: 17
+        x: 3801
+        y: 156
+        width: 238
+        height: 333
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,55 +382,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Player shot_20
-      rect:
-        serializedVersion: 2
-        x: 1244
-        y: 159
-        width: 232
-        height: 327
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba945a30351e965c0800000000000000
-      internalID: -4221595429023430229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player shot_21
-      rect:
-        serializedVersion: 2
-        x: 3804
-        y: 159
-        width: 232
-        height: 327
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96361219bffe3e790800000000000000
-      internalID: -7501888690518400151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b6138b2777c8b034a95648f60331876f
     internalID: 0
     vertices: []
     indices: 
@@ -673,8 +409,6 @@ TextureImporter:
       Player shot_18: -5060081093676745883
       Player shot_19: -7262825748612364553
       Player shot_2: 1297994181662462036
-      Player shot_20: -4221595429023430229
-      Player shot_21: -7501888690518400151
       Player shot_3: 6863514813106027482
       Player shot_4: -866892627804946210
       Player shot_5: -5941339087560406934
