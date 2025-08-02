@@ -218,7 +218,7 @@ MonoBehaviour:
   m_CellSize: {x: 290, y: 50}
   m_Spacing: {x: 25, y: 25}
   m_Constraint: 1
-  m_ConstraintCount: 2
+  m_ConstraintCount: 1
 --- !u!1001 &270887042
 PrefabInstance:
   m_ObjectHideFlags: 0

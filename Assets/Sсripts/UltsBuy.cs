@@ -18,12 +18,13 @@ public class UltInfo
     public int price;
     public List<InputDirection> combination;
     public bool isOwned = false;
+    public int addClicks;
 }
 
 public class UltsBuy : MonoBehaviour
 {
-    [SerializeField] private List<UltInfo> ults = new();
-
+    public List<UltInfo> ults = new();
+   
     public GameObject ultsPanel;
     public GameObject ultsCellPrefab;
     public GameObject ultsToClickPrefab;
@@ -59,6 +60,7 @@ public class UltsBuy : MonoBehaviour
             CreateUltVisual(ult);
 
             ult.button.interactable = false;
+            ult.isOwned = true;
         }
         else
         {
@@ -73,8 +75,16 @@ public class UltsBuy : MonoBehaviour
         Transform innerGrid = newUlt.transform;
 
         // make a combo to click
-        foreach (var dir in ult.combination)
+        for (int i = 0; i < ult.combination.Count; i++)
         {
+            var dir = ult.combination[i];
+
+            if (i ==0)
+            {
+                GameObject MainIcon = Instantiate(ultsToClickPrefab, innerGrid);
+                Image icon = MainIcon.GetComponentInChildren<Image>();
+                icon.sprite = ult.icon;
+            }
             GameObject toClick = Instantiate(ultsToClickPrefab, innerGrid);
             Image img = toClick.GetComponentInChildren<Image>();
 
