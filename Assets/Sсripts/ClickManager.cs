@@ -11,6 +11,9 @@ public class ClickManager : MonoBehaviour
     [SerializeField]
     private int clickMultiplier = 1;
 
+    [SerializeField] 
+    private Animator playerAnimator;
+
     private float _tickTimer = 0f;
 
     void Awake()
@@ -34,6 +37,7 @@ public class ClickManager : MonoBehaviour
     public void AddClickManually()
     {
         AddClicks(clickMultiplier);
+        playerAnimator.SetTrigger("Shoot");
     }
 
     public void AddClicks(int amount)

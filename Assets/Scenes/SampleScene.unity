@@ -894,6 +894,7 @@ MonoBehaviour:
   clickCount: 0
   clicksPerSecond: 0
   clickMultiplier: 1
+  playerAnimator: {fileID: 1134491704}
 --- !u!114 &671775663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -997,7 +998,7 @@ PrefabInstance:
     - target: {fileID: 1486751844921253227, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -6529227684934231319, guid: ee9354173d14a554eb0176b4bcacf302, type: 3}
     - target: {fileID: 2348078605237898932, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
       propertyPath: m_RaycastTarget
       value: 1
@@ -1172,7 +1173,7 @@ GameObject:
   - component: {fileID: 1134491705}
   - component: {fileID: 1134491704}
   m_Layer: 0
-  m_Name: Player still_0
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
