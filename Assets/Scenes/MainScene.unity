@@ -799,6 +799,17 @@ MonoBehaviour:
     multiplierBonus: 6
     isOwned: 0
   mostMulti: 0
+--- !u!114 &656358327 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5009055728879796612, guid: 953093d912b512e49bb5d0787ec4bd1e, type: 3}
+  m_PrefabInstance: {fileID: 6999844603270807461}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &671775658
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,6 +824,7 @@ GameObject:
   - component: {fileID: 671775663}
   - component: {fileID: 671775662}
   - component: {fileID: 671775664}
+  - component: {fileID: 671775665}
   m_Layer: 5
   m_Name: PlayArea Panel
   m_TagString: Untagged
@@ -894,6 +906,7 @@ MonoBehaviour:
   clickCount: 0
   clicksPerSecond: 0
   clickMultiplier: 1
+  outOfBounds: 2000000000
   playerAnimator: {fileID: 1134491704}
 --- !u!114 &671775663
 MonoBehaviour:
@@ -964,6 +977,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickText: {fileID: 2031995360}
+--- !u!114 &671775665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671775658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713e029dc11fbf144bb874132137f504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetImage: {fileID: 671775660}
+  backgrounds:
+  - {fileID: 5756380681857427472, guid: 6bd99825098221143af848dc1874e12b, type: 3}
+  - {fileID: -6311352213680616822, guid: 93b12373638f4ef4d93fe15166109753, type: 3}
+  - {fileID: -8010657799410552898, guid: d993b6ab2f3750e4084a9a0efa630c24, type: 3}
+  delay: 5
 --- !u!114 &731725948 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2666907805955215730, guid: 9429d81de136bff47b682e28d6c966e1, type: 3}
@@ -1720,6 +1751,12 @@ MonoBehaviour:
   upgradeCost: 2
   clicksIncrease: 2
   curLevel: 0
+  turretSprites:
+  - {fileID: 21300000, guid: b19defd1b6b3c7645856a870d90e1948, type: 3}
+  - {fileID: 21300000, guid: e3a2585adace5384c9020e9677a28b9a, type: 3}
+  - {fileID: 21300000, guid: 7cf24c4976acdc54f8c7ea820315e001, type: 3}
+  - {fileID: 21300000, guid: 08e455ee7a2343b4caef4eafdfcd54d5, type: 3}
+  turretImageToUpgrd: {fileID: 656358327}
   upgradeButton: {fileID: 1555061233660903563}
 --- !u!1001 &6662925296773068616
 PrefabInstance:
@@ -1933,7 +1970,7 @@ PrefabInstance:
     - target: {fileID: 5009055728879796612, guid: 953093d912b512e49bb5d0787ec4bd1e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: b19defd1b6b3c7645856a870d90e1948, type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     m_RemovedGameObjects: []
