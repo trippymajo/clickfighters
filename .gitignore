@@ -34,3 +34,5 @@ Thumbs.db
 
 # Test Results
 *.testresult
+
+/bin
