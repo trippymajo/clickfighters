@@ -38,7 +38,7 @@ public class ClickManager : MonoBehaviour
         if (clickCount < 0 || clickCount > outOfBounds)
         {
             Debug.LogWarning("Click count out of bounds, starting scene switch...");
-            StartCoroutine(SwitchSceneSafely("End"));
+            SwitchSceneSafely("End");
             isSwitchingScene = true;
             return;
         }
@@ -51,20 +51,20 @@ public class ClickManager : MonoBehaviour
         }
     }
 
-    private IEnumerator SwitchSceneSafely(string sceneName)
+    private void SwitchSceneSafely(string sceneName)
     {
-        // Удаляем все persistent-объекты
-        var persistentObjects = FindObjectsByType<GameObject>(FindObjectsSortMode.None);
-        foreach (var obj in persistentObjects)
-        {
-            if (obj.scene.name == null || obj.scene.name == "")
-            {
-                Destroy(obj);
-            }
-        }
+        //// Удаляем все persistent-объекты
+        //var persistentObjects = FindObjectsByType<GameObject>(FindObjectsSortMode.None);
+        //foreach (var obj in persistentObjects)
+        //{
+        //    if (obj.scene.name == null || obj.scene.name == "")
+        //    {
+        //        Destroy(obj);
+        //    }
+        //}
 
-        // Ждём 1 кадр — объекты будут реально удалены
-        yield return null;
+        //// Ждём 1 кадр — объекты будут реально удалены
+        //yield return null;
 
         // Теперь безопасно загружаем сцену
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
